@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonials | Rabia Zulfiqar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        /* General Page Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #f7f7f7, #ececec);
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Header Styles */
+        .top-bar {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        .top-bar h1 {
+            margin: 0;
+        }
+
+        .nav-bar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-bar ul li {
+            margin-right: 20px;
+        }
+
+        .nav-bar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 5px 10px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-bar ul li a:hover {
+            color: #f39c12;
+        }
+
+       
+
+        .testimonials h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+             text-align:center ;
+        }
+
+        .testimonial-cards {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: nowrap;
+            margin-top: 20px;
+        }
+
+        .testimonial-card {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
+            max-width: 350px;
+            text-align: left;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .quote {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        .author-info {
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+            text-align: center;
+        }
+
+        .author {
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .position {
+            font-size: 1rem;
+            color: #f39c12;
+        }
+
+           
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="top-bar">
+        <h1 class="name">Rabia Zulfiqar</h1>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html#about">About Me</a></li>
+                <li><a href="index.html#whatido">What I Do</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="Rabia(cv).pdf">Resume</a></li>
+                <li><a href="contactme.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>What People Say</h2>
+        <div class="testimonial-cards">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+                <p class="quote">"Rabia is an exceptional software engineer. Her ability to think creatively and find solutions to complex problems has impressed me time and time again. Her work ethic and dedication to quality make her an invaluable asset to any team."</p>
+                <div class="author-info">
+                    <p class="author">Zain Zulfiqar</p>
+                    <p class="position">Lead Developer</p>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+                <p class="quote">"I had the pleasure of working with Rabia on multiple projects, and she consistently goes above and beyond. Her expertise in frontend development and UI/UX design is top-notch, and she always delivers on time!"</p>
+                <div class="author-info">
+                    <p class="author">Sajeel Zafar</p>
+                    <p class="position">Frontend Developer</p>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+                <p class="quote">"Rabia's ability to blend technical skills with a keen sense of design is impressive. She makes even the most complex concepts easy to understand. I highly recommend her for any web development or design project!"</p>
+                <div class="author-info">
+                    <p class="author">Saira Sajeel</p>
+                    <p class="position">Electrical engineer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+</body>
+
+</html>
